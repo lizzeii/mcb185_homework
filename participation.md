@@ -28,6 +28,10 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Didn't come to class Thursday to save you from getting sick
 	+ Total 4 points
 - Week 1
+	+ Attended class on Tuesday
+	+ Introduced myself to a classmate
+	+ Introduced myself to a classmate
+	+ Attended class on Thursday
 - Week 2
 - Week 3
 - Week 4
