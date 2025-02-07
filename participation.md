@@ -45,6 +45,7 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 5
 	+ Attended class on Tuesday
 	+ Attended a Coderie
+	+ Attended class on Thursday
 - Week 6
 - Week 7
 - Week 8
