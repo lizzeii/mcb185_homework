@@ -72,7 +72,10 @@ print(isinteger(random.randint(1, 10)))
 ##what are ways to identify nonintegers?
 
 #if number is a valid probability
-##?
+def prob(x):
+    if x <=100: return 'valid probability'
+    return 'not a valid probability'
+print(prob(99.9))
 
 #molecular weight of a DNA letter
 def molbp(n):
@@ -100,9 +103,23 @@ def compbp(n):
     else:           return None
 print(compbp('C'))
 
+#maximum of three numbers
 def max(x, y, z):
-    if x > y and x > z: return 'x is largest'
+    if x > y and x > z:     return 'x is largest'
     elif y > x and y > z:   return 'y is largest'
     elif z > x and z > y:   return 'z is largest'
     return None
 print(max(5, 5, 3))
+
+#f1 score
+def f1score(tp,fp,fn):
+    p = tp / (tp + fp)  #precision
+    r = tp / (tp + fn)  #recall/sensitivity
+    return 2 / ((1 / p) + (1 / r))
+print(f1score(1, 4, 4))
+
+#shannon entropy of nucleotides
+def shaen(a, c, g, t):
+    e = (-(0.25) * math.log(0.25))
+    return (a * e) + (c * e) + (g * e) + (t * e)
+print(shaen(5, 3, 4, 5))
