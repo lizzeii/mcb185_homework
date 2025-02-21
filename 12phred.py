@@ -12,7 +12,7 @@ def perror(l):
     elif type(l) != type('A'):
         return None
     return None
-print(perror(9.0))
+print(perror('A'))
 
 #probability error to letter
 ##phred > Q score > ASCII > letter
@@ -29,6 +29,15 @@ def lett(p):
     elif type(p) != type(1.0):
         return None
     return None
-print(lett('A'))
+print(lett(1.0))
 
 #how to make it so that I don't have to put in variables without error?
+
+#assessment
+def chrtoerror(a):
+    return 2 ** (64 - ord(a))
+print(chrtoerror('F'))
+
+def errortochr(n):
+    return chr(math.ceil(-math.log2(n)) + 64)
+print(errortochr(0.4))
