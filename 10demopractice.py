@@ -59,8 +59,8 @@ print(dist(1, 2, 3, 4))
 #if number is an integer
 print(type(3.2))
 def isinteger(x):
-    if type(x) == type(3.2):    return False
-    return True
+    if x % 1 == 0:    return True
+    return False
 print(isinteger(3.2))
 #with random numbers
 #either random.random() or random.randint(,)

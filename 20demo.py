@@ -62,3 +62,32 @@ for i in range(7):
         print(i, 'is even')
     else:
         print(i, 'is odd')
+
+#random numbers
+import random
+
+for i in range(5):
+    print(random.random())
+    ##random.random generates a number 0 <= x < 1
+    ##loop runs 5 times
+
+for i in range(3):
+    print(random.randint(1, 6))
+    ##random.randint generates an integer between two inclusive end points
+
+random.seed(1)
+print(random.random())
+print(random.random())
+random.seed(2)
+print(random.random())
+random.seed(1)
+print(random.random())
+random.seed(2)
+print(random.random())
+##all random numbers can be called as long as you set the seed ahead of times
+
+#compound assignment
+## += specifies for increments
+### i += 1 replaces i = i + 1
+## -= specifies for decrement
+## *= specifies for multiply and assign
