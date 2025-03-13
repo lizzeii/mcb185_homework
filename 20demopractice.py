@@ -132,5 +132,3 @@ for i in range(dice):
     roll = random.randint(1, 6)
     print(roll)
 ##not sure how to remove without having long lines of code
-
-print(6 % 5)
