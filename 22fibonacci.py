@@ -12,3 +12,4 @@ for i in range(8):
     y = z
     ##shifts second number to first and third to second
     print(z)
+##how do i put the first two numbers in the loop?
